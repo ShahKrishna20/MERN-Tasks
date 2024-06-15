@@ -1,0 +1,383 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#task1{
+    width: 100%;
+    background-color: #c1f0e9;
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    border-color: black;
+}
+
+#task1 th,#task1 td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+    border-radius: 20px;
+}
+
+#task1 th{
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#task1 td{
+    background-color: #b3ded8;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.vertical-nav {
+    width: 200px;
+    border: 1px solid black;
+    background-color: #a6e7e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.vertical-nav a {
+    display: block;
+    color: blue;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.vertical-nav a.active {
+    background-color: orange;
+    color: white;
+}
+
+.vertical-nav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+.horizontal-nav {
+    display: flex;
+    border: 1px solid black;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.horizontal-nav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
+
+.horizontal-nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.horizontal-nav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+
+#task3 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#task3 th,#task3 td {
+    text-align: left;
+    padding: 8px;
+}
+
+#task3 th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#task3 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#task3 tr:hover {
+    background-color: #ddd;
+}
+
+.main {
+    margin-left: 60px; /* Same as the width of the sidenav */
+    padding: 1px;
+} 
+.sidenav {
+     height: 100%;
+     width: 60px;
+     position: relative;;
+     z-index: 1;
+     left: 0;
+     background-color: white;
+     overflow-x: hidden;
+ }
+ .sidenav a {
+     padding: 6px 8px 6px 0px;
+     text-decoration: none;
+     font-size: 16px;
+     color: #818181;
+     display: block;
+ }
+ .sidenav a:hover {
+     color: #f1f1f1;
+     
+ }
+
+ .button {
+     display: block;
+     width: 40px;
+     height: 40px;
+     border-radius: 35%;
+     margin: 10px auto;
+     background-color: #4CAF50;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+ .button:hover {
+    
+     width: 50px;
+     height: 50px;
+ }
+
+.task5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+
+}
+.container5 {
+    width: 800px;
+    background-color: #dcd64d;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: blue;
+    display: block;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.sidebar ul li a:hover{
+    color: white;
+    background: black;
+}
+
+.main {
+    flex: 1;
+}
+
+.main h2 {
+    color: purple;
+}
+
+.main p {
+    margin: 10px 0;
+    color: purple;
+}
+
+.main hr {
+    margin: 20px 0;
+    color: purple;
+}
+
+.main em {
+    font-size: 0.9em;
+    color: purple;
+}
+
+
+
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    
+}
+ .login-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-avatar {
+    margin: 20px 0;
+}
+
+.login-avatar img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-actions {
+    margin-top: 10px;
+}
+
+.btn-login {
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-login:hover {
+    background: #256528;
+}
+
+.btn-cancel {
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-cancel:hover {
+    background: #d32f2f;
+}
+
+.forgot-password {
+    margin-top: 15px;
+}
+
+.forgot-password a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+ .container7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #e4409f;
+    color: white;
+}
+
+.form-container {
+    background-color: #46032c;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
